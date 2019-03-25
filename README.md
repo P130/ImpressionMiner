@@ -1,0 +1,2 @@
+# ImpressionMiner
+A multiple threaded console application written in Java and SQLite. Initially user enters a query and the application searches the query in various sites by creating an equal number of threads. Then, the application tries to assign a score to each word of the query by searching if there are near, any negative or positive words. A word is negative or positive if it's already registered in SQLite database and has a negative or positive score respectively .
